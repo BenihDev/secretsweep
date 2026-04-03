@@ -1,0 +1,31 @@
+{
+  "name": "secretsweep",
+  "version": "1.0.0",
+  "description": "Zero-config secret scanning for staged git files — catch API keys before you push",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "secretsweep": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["secrets", "scanner", "git", "pre-commit", "security", "cli"],
+  "author": "fanioz",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
