@@ -5,13 +5,13 @@ Zero-config secret scanning for staged git files — catch API keys before you p
 ## Install
 
 ```bash
-npx secretsweep
+npx @fanioz/secretsweep
 ```
 
 Or install globally:
 
 ```bash
-npm install -g secretsweep
+npm install -g @fanioz/secretsweep
 ```
 
 ## Usage

@@ -1,5 +1,5 @@
 {
-  "name": "secretsweep",
+  "name": "@fanioz/secretsweep",
   "version": "1.0.0",
   "description": "Zero-config secret scanning for staged git files — catch API keys before you push",
   "type": "module",
