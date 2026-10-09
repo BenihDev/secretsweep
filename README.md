@@ -2,6 +2,8 @@
 
 Zero-config secret scanning for staged git files — catch API keys before you push.
 
+> **secretsweep is a free, open-source CLI tool by [BenihKode](https://www.benihkode.web.id/tools/secretsweep/)** — a solo developer studio that ships small, focused dev tools. Full docs, threat model, and the rest of the toolset live at [benihkode.web.id](https://www.benihkode.web.id/tools/).
+
 ## Install
 
 ```bash
@@ -75,6 +77,16 @@ Existing tools like gitleaks and truffleHog are powerful but enterprise-focused.
 - **Git-aware** — scans staged files by default, not your whole history
 - **Focused** — catches secrets before they leave your machine
 
+## Links
+
+- **Website & docs:** [benihkode.web.id/tools/secretsweep](https://www.benihkode.web.id/tools/secretsweep/)
+- **All BenihKode tools:** [benihkode.web.id/tools](https://www.benihkode.web.id/tools/)
+- **Build story:** [Building secretsweep](https://www.benihkode.web.id/blog/building-secretsweep/)
+
 ## License
 
 MIT
+
+---
+
+Part of the [BenihKode](https://www.benihkode.web.id) developer toolset.
